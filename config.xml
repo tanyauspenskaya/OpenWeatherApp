@@ -12,7 +12,7 @@
         Open Weather App brings you all weather information available for 10 cities.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
+    <author href="http://www.fanshaweonline.ca" email="tanyauspenskaya@gmail.com">
         Tatiana Uspenskaia
     </author>
 
@@ -70,7 +70,7 @@
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
     
 
-    <gap:config-file platform="android" parent="CFBundleShortVersionString">
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>100</string>
     </gap:config-file>
 
