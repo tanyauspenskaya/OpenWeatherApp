@@ -1,0 +1,24 @@
+<ion-header-bar class="bar-balanced">
+	<h1 class="title">Open Weather App</h1>
+</ion-header-bar>
+
+<ion-content>
+	<ion-refresher pulling-text="Pull To Refresh" refreshing-text="loading..." on-refresh="loadTowns()">
+	</ion-refresher>
+
+	<div class="list list-inset">
+		<div class="row">
+			<div class="col text-center">
+		<ion-item ng-repeat="list in list" class="item">
+		<h1 class="dark" data-ng-bind-html="list.name"></h1>
+		<a class="balanced" href="#/weather/{{$index}}">View Details</a>
+		</ion-item>
+	</div>
+</div>
+	</div>
+
+
+</ion-content>
+
+<ion-footer-bar class="bar-balanced">
+</ion-footer-bar>
